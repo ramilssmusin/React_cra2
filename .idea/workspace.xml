@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e5a92d4-0d58-4b75-b8e8-b5f498b6ab63" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Logo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MenuItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +31,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ReactProjects\cra2\src" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -48,7 +59,7 @@
     </configuration>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\1\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,14 +70,42 @@
       <updated>1580584203203</updated>
       <workItem from="1580584204751" duration="1855000" />
       <workItem from="1580662696171" duration="5764000" />
-      <workItem from="1580861314589" duration="3033000" />
+      <workItem from="1580861314589" duration="20213000" />
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1580866934095</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580866934096</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580939336475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580939336475" />
+    <state x="585" y="113" key="CommitChangelistDialog2" timestamp="1580866933051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580866933051" />
+    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1580867095312">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580867095312" />
+    <state x="830" y="412" key="Github.ShareDialog" timestamp="1580867176399">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="830" y="412" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580867176399" />
     <state width="1898" height="276" key="GridCell.Tab.0.bottom" timestamp="1580864688503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -83,5 +122,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1898" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580864688503" />
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1580866955616">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580866955616" />
+    <state x="789" y="383" key="git4idea.rebase.GitRebaseDialog" timestamp="1580867072524">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="789" y="383" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580867072524" />
   </component>
 </project>

@@ -1,13 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-const name = "Jack"
+import Header from "./Header";
+import Footer from "./Footer";
+import Content from "./Content";
 
 function App() {
   return (
     <div className="App">
-
+      <Header/>
+      <Content/>
+      <Footer/>
     </div>
   );
 }
