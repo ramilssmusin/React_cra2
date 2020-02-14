@@ -2,13 +2,16 @@ import React from 'react';
 import Logo from "./Logo";
 import Menu from "./Menu";
 
-function Header() {
+function Header(props) {
+
+
+
   return (
         <header>
             <div className="container">
                 <Logo/>
 
-                <Menu/>
+                <Menu items = {props.items}/>
             </div>
         </header>
   );

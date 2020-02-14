@@ -1,12 +1,12 @@
 import React from 'react';
 
-function MenuItem(props) {
+function MenuItemF(props) {
         console.log(props);
       return (
-        <li className="menuItem">
+        <li className="menuItemF">
             <a href={props.menuItem.link}>{props.menuItem.text}</a>
         </li>
   );
 }
 
-export default MenuItem;
+export default MenuItemF;
