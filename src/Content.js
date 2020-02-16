@@ -1,21 +1,22 @@
 import React from 'react';
 
-function Content() {
+function Content(props) {
 
     let name = 'Initial';
 
-    function clickButtonHandler(value) {
-        console.log('Clicked ' + value);
-    }
+    const clickButtonHandler = (value) => {
+        props.bc(name+value);
+        console.log('Clicked ' + name);
+    };
 
     const inputHandler = (e) => {
         name = e.target.value;
         console.log(e.target.value);
-    }
+    };
 
     const changeHandler = () => {
         console.log('Change!');
-    }
+    };
 
     return (
     <main>
