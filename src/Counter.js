@@ -4,9 +4,9 @@ function Counter(props) {
 
     return (
         <div className="state">
-            <code className="field">{props.name+" "}</code>
+            <marker className="field">{props.name+" "} </marker>
             <button onClick={() => props.decrement(props.id)}>-</button>
-            {props.count}
+            <code>{props.count}</code>
             <button onClick={() => props.increment(props.id)}>+</button>
             <button onClick={() => props.reset(props.id)}>Reset {props.name}</button>
             <button onClick={() => props.remover(props.id)}>Delete</button>

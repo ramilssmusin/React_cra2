@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e5a92d4-0d58-4b75-b8e8-b5f498b6ab63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AddCounter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Counter.js" afterDir="false" />
@@ -68,7 +67,7 @@
       <workItem from="1580861314589" duration="28720000" />
       <workItem from="1581283806780" duration="8347000" />
       <workItem from="1581781413360" duration="4293000" />
-      <workItem from="1581787337025" duration="26157000" />
+      <workItem from="1581787337025" duration="29529000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1580866934095</created>
@@ -98,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581855039077</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Counters (state, props)">
+      <created>1582378080647</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582378080647</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,17 +115,18 @@
     <MESSAGE value="second" />
     <MESSAGE value="Props #1" />
     <MESSAGE value="Props, callback #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Props, callback #2" />
+    <MESSAGE value="Counters (state, props)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Counters (state, props)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580939336475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580939336475" />
-    <state x="585" y="113" key="CommitChangelistDialog2" timestamp="1581855038121">
+    <state x="585" y="113" key="CommitChangelistDialog2" timestamp="1582378079575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581855038121" />
+    <state x="585" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582378079575" />
     <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1580867095312">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -192,10 +199,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1898" height="342" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582153361541" />
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1581855052748">
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1582378094730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581855052748" />
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582378094730" />
     <state x="789" y="383" key="git4idea.rebase.GitRebaseDialog" timestamp="1580867072524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

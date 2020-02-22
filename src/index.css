@@ -87,6 +87,9 @@ button {
   margin: 2px;
 }
 
-field {
-  background: red;
+code {
+  background-color: beige;
+  margin: 2px;
+  border: thick;
+  font-weight: bolder;
 }

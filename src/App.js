@@ -84,11 +84,11 @@ function App() {
     <div className="App">
       <Header items = {items}/>
 
-      Total count {values.reduce((acc, cur) => acc+cur.count, 0)}
+      <strong>Total count</strong> <code>{values.reduce((acc, cur) => acc+cur.count, 0)}</code>
       <button onClick={resetTotalCount}>Reset total count</button>
 
       <hr/>
-      Counters
+      <strong>Counters</strong>
       {values.map(el => <Counter key = {el.id}
                                  id = {el.id}
                                  name = {el.name}
@@ -101,7 +101,7 @@ function App() {
       />)}
 
       <hr/>
-      Add new counter
+      <strong>Add new counter</strong>
       <AddCounter onSubmit = {addCounter} />
 
       <Footer items = {items} items2 = {itemsF}/>
