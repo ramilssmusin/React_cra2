@@ -7,7 +7,7 @@ function Counter(props) {
             <marker className="field">{props.name+" "} </marker>
             <button onClick={() => props.decrement(props.id)}>-</button>
             <code>{props.count}</code>
-            <button onClick={() => props.increment(props.id)}>+</button>
+            <button onClick={() => props.increment(props.id)} className='btn-primary'>+</button>
             <button onClick={() => props.reset(props.id)}>Reset {props.name}</button>
             <button onClick={() => props.remover(props.id)}>Delete</button>
         </div>

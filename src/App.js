@@ -81,11 +81,11 @@ function App() {
 
   return (
 
-    <div className="App">
+    <div className="container">
       <Header items = {items}/>
 
       <strong>Total count</strong> <code>{values.reduce((acc, cur) => acc+cur.count, 0)}</code>
-      <button onClick={resetTotalCount}>Reset total count</button>
+      <button type="button" class="btn btn-danger" onClick={resetTotalCount}>Reset total count</button>
 
       <hr/>
       <strong>Counters</strong>
