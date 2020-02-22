@@ -2,25 +2,14 @@ import React, {useState} from 'react';
 
 function Counter(props) {
 
-    const [count, setCount] = useState(props.vals[props.index]);
-
-    const countChangeUpHandler = () => {
-        setCount(count+1);
-        props.vals[props.index] += 1;
-        props.countChanged(props.vals);
-    };
-
-    const countChangeDownHandler = () => {
-        setCount(count-1);
-        props.vals[props.index] -= 1;
-        props.countChanged(props.vals);
-    };
-
     return (
         <div className="state">
-            <button onClick={countChangeDownHandler}>-</button>
-            {count}
-            <button onClick={countChangeUpHandler}>+</button>
+            <code className="field">{props.name+" "}</code>
+            <button onClick={() => props.decrement(props.id)}>-</button>
+            {props.count}
+            <button onClick={() => props.increment(props.id)}>+</button>
+            <button onClick={() => props.reset(props.id)}>Reset {props.name}</button>
+            <button onClick={() => props.remover(props.id)}>Delete</button>
         </div>
   );
 }

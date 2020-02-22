@@ -3,6 +3,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Content from "./Content";
 import Counter from "./Counter";
+import AddCounter from "./AddCounter";
 
 const items = [
     {text: 'Home',
@@ -26,33 +27,83 @@ const itemsF = [
         link: ''}
 ];
 
-const c1 =2, c2 = 5;
-const tc = c1 + c2;
-let values = [2,5];
-
 function App() {
-    const [totalCount, setTotalCount] = useState(tc);
-    // function buttonClicked(name) {
-    //     console.log('CLICKED!!!&'+name);
-    // }
+    const Initialvalues = [
+        {id: 11, name: 'Counter 1', count: 8},
+        {id: 22, name: "Counter 2", count: 8}
+    ];
 
-    function countChanged(value) {
-        console.log('changeD! '+value);
-        let s = 0;
-        for (let i=0; i<value.length; i++){
-            s += value[i];
+    const [values, setValues] = useState(Initialvalues);
+
+    function incrementCounter(id) {
+        console.log('INC');
+        const index = values.findIndex(el => el.id === id);
+        const newCounters = [...values];
+        newCounters[index].count = newCounters[index].count + 1;
+        setValues(newCounters);
+    }
+
+    function decrementCounter(id) {
+        console.log('DEC');
+        const newCounters = values.map(el => {
+            if (el.id === id) return {...el, count: el.count - 1};
+            return el;
+        });
+        setValues(newCounters);
+    }
+
+    function removeCounter(id) {
+        const newVal = values.filter(e => e.id !== id);
+        setValues(newVal);
+    }
+
+    const addCounter = (name, count) => {
+        const newVal = [...values, {
+            id: Date.now(),
+            count: count,
+            name: name
+        }];
+        setValues(newVal);
+    }
+
+    function resetTotalCount() {
+        const newVal = values.map(e => ({...e, count: 0}));
+        setValues(newVal);
+    }
+
+    function resetCount(id) {
+        const newVal = [...values];
+        for (let i=0; i<newVal.length; i++){
+            if (values[i].id===id) {values[i].count=0;}
         }
-        setTotalCount(s);
+        setValues(newVal);
     }
 
   return (
+
     <div className="App">
       <Header items = {items}/>
-      {/*<Content bc={buttonClicked}/>*/}
-      Total {totalCount}
-      <Counter index = {0} countChanged = {countChanged} vals = {values}/>
+
+      Total count {values.reduce((acc, cur) => acc+cur.count, 0)}
+      <button onClick={resetTotalCount}>Reset total count</button>
+
       <hr/>
-      <Counter index = {1} countChanged = {countChanged} vals = {values}/>
+      Counters
+      {values.map(el => <Counter key = {el.id}
+                                 id = {el.id}
+                                 name = {el.name}
+                                 count = {el.count}
+                                 increment = {incrementCounter}
+                                 decrement = {decrementCounter}
+                                 remover = {removeCounter}
+                                 reset = {resetCount}
+
+      />)}
+
+      <hr/>
+      Add new counter
+      <AddCounter onSubmit = {addCounter} />
+
       <Footer items = {items} items2 = {itemsF}/>
     </div>
   );

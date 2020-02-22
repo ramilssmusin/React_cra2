@@ -80,3 +80,13 @@ header nav ul li {
   width: 960px;
   margin: 0 auto;
 }
+
+button {
+  cursor: grab;
+  background-color: lightgrey;
+  margin: 2px;
+}
+
+field {
+  background: red;
+}
